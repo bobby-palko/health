@@ -1,7 +1,7 @@
 import axios, { AxiosResponse } from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://health.bobbypalko.com/apiv1/',
+  baseURL: 'https://health.bobbypalko.com/api/',
 });
 
 export const addWeight = (weight: string): Promise<AxiosResponse<any>> =>
